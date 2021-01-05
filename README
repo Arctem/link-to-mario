@@ -1,1 +1,10 @@
 Please run `pip install graphviz` to get the dependency.
+
+For a game to be allowed, the game must be an official release. Fan games do not count. Games that only released overseas are allowed.
+
+For a character to count as being present in a game, the following must be true:
+1) The character has to be present. References like costumes, music, or catchphrases do NOT count.
+2) The character has to be interactable. Static characters in a background image do NOT count.
+3) The character has to 'exist' in the game world. For example, even though Virtua Fighter is present as a mini-game in Yakuza: Like a Dragon, the characters don't actually exist within the game, so this would not count.
+4) The character has to be a released part of the game. DLC counts. Official mods do not.
+5) The character has to be an actual character. Generic enemies, like 'dragon' or 'slime', are not allowed. 'Specific' enemies, like Tiamat, are allowed.
