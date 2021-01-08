@@ -2,7 +2,8 @@ import os
 
 from graphviz import Digraph
 
-COLOR_ORDER = ['red', 'orange', 'yellow', 'yellowgreen', 'green', 'blue', 'purple']
+KEY_CHARACTER = 'Mario'
+COLOR_ORDER = ['red', 'orange', 'yellow', 'yellowgreen', 'green', 'blue', 'cyan', 'coral', 'darkorchid2', 'purple']
 
 dot = Digraph(comment='Character Linker',
               engine='dot',
@@ -10,7 +11,7 @@ dot = Digraph(comment='Character Linker',
               )
 dot.attr(overlap='false', splines='true')
 dot.node_attr.update(color='green', style='filled')
-dot.node('Mario', color='red')
+dot.node(KEY_CHARACTER, color='red')
 
 characters = {}
 games = {}
@@ -30,7 +31,7 @@ for filename in os.listdir(os.getcwd() + '/data'):
 
 visited = set()
 visited_this_loop = set()
-seen_chars = {'Mario'}
+seen_chars = {KEY_CHARACTER}
 seen_games = set()
 distance = 0
 
